@@ -28,11 +28,11 @@ public class Main {
 
         totalArea(figureList);
         System.out.println(" --------");
-        System.out.println(" --------");
 
+        System.out.println(" --- Filter figure by area -----");
         printList(filterByArea(figureList, 350));
-        System.out.println(" --------");
 
+        System.out.println(" --- Search figure in the list -----");
         exist(figureList, new Circle(4));
         exist(figureList, new Circle(5));
         exist(figureList, new Rectangle(3, 8));
